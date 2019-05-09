@@ -52,3 +52,9 @@ shop.checkout('AAAAAA') # => 260
 3. checkout for a single, simple item (no discount)
 
 4. checkout for 2 simple items (no discount)
+
+5. checkout multiple items (no discount)
+
+[Got to starting this next one but not finishing in 30 mins]
+
+6. checkout 3 A's with discount 

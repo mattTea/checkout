@@ -18,5 +18,13 @@ Shop.prototype = {
       bill += prices[shoppingItems[i]]
     }
     return bill
+
+    // checkout for number of A's in shoppingItems
+  },
+
+  checkForDiscountItems: function(shoppingItems) {
+    if (shoppingItems.includes("A", "A", "A")) {
+
+    }
   }
 }
