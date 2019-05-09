@@ -17,14 +17,21 @@ Shop.prototype = {
     for (var i = 0; i < shoppingItems.length; i++) {
       bill += prices[shoppingItems[i]]
     }
+    if (this.checkFor3AItems(shoppingItems)) bill -= 20
     return bill
-
-    // checkout for number of A's in shoppingItems
   },
 
-  checkForDiscountItems: function(shoppingItems) {
-    if (shoppingItems.includes("A", "A", "A")) {
-
+  checkFor3AItems: function(shoppingItems) {
+    aCount = 0
+    for (var i = 0; i < shoppingItems.length; i++) {
+      if (shoppingItems[i] === "A") {
+        aCount += 1
+      }
+    }
+    if (aCount < 3) {
+      return false
+    } else {
+      return true
     }
   }
 }

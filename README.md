@@ -33,7 +33,10 @@ In order to complete the round you need to implement the following method: check
 
 param[0] = eg. 'AAB', a String containing the SKUs of all the products in the basket
 @return = eg. 120, an Integer representing the total checkout value of the items
-Acceptance Criteria
+
+
+### Acceptance Criteria
+
 shop.checkout('aBc') # => -1
 shop.checkout('-B8x') # => -1
 shop.checkout(18) # => -1
@@ -55,6 +58,14 @@ shop.checkout('AAAAAA') # => 260
 
 5. checkout multiple items (no discount)
 
-[Got to starting this next one but not finishing in 30 mins]
+------
+
+_Got to starting this next one but not finishing in 30 mins_
+
+------
 
 6. checkout 3 A's with discount 
+
+------
+
+_Finished first test on the discounted A's acceptance criteria after another 5-10 mins_
