@@ -2,7 +2,9 @@ Checkout
 ========
 
 Implement a supermarket checkout that calculates the total price of a number of items
- - to be run in a REPL like IRB. Don't worry about I/O.
+- to be run in a REPL like IRB. Don't worry about I/O.
+- (actually run in the browser console)
+
 
 ## Requirements
 
@@ -13,6 +15,7 @@ For example, item A might cost 50 pounds individually, but this week we have a s
 buy three As and they'll cost you 130.
 Our price table and offers:
 
+```
 +------+-------+----------------+
 | Item | Price | Special offers |
 +------+-------+----------------+
@@ -21,7 +24,7 @@ Our price table and offers:
 | C    | 20    |                |
 | D    | 15    |                |
 +------+-------+----------------+
-
+```
 
 ### Notes:
 
@@ -34,17 +37,19 @@ In order to complete the round you need to implement the following method: check
 param[0] = eg. 'AAB', a String containing the SKUs of all the products in the basket
 @return = eg. 120, an Integer representing the total checkout value of the items
 
+------
 
-### Acceptance Criteria
+## Acceptance Criteria
 
-shop.checkout('aBc') # => -1
-shop.checkout('-B8x') # => -1
-shop.checkout(18) # => -1
-shop.checkout('AA') # => 100
-shop.checkout('ABCD') # => 115
-shop.checkout('AAA') # => 130
-shop.checkout('AAAAAA') # => 260
+1. shop.checkout('aBc') # => -1
+2. shop.checkout('-B8x') # => -1
+3. shop.checkout(18) # => -1
+4. shop.checkout('AA') # => 100
+5. shop.checkout('ABCD') # => 115
+6. shop.checkout('AAA') # => 130
+7. shop.checkout('AAAAAA') # => 260
 
+------
 
 ## Breakdown
 
@@ -69,3 +74,18 @@ _Got to starting this next one but not finishing in 30 mins_
 ------
 
 _Finished first test on the discounted A's acceptance criteria after another 5-10 mins_
+
+------
+
+## Reflection
+
+- Completed ACs `4` and `5` (in 30 minute process review window)
+- Completed AC `6` 10 mins after time (40 mins)
+
+- Link to screen recording [here](https://drive.google.com/open?id=1u8HlX6hcDxB1OgHVAF1QAznS6uganmyh)
+
+
+### Improvements
+
+1. Focus on the ACs that need to be met when breaking things down
+2. Next small step to pass next easy test, still making some bigger jumps
